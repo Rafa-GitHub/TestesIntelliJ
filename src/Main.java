@@ -45,7 +45,9 @@ public class Main {
             cont++;
         }
 
-
+        for(int i = 0; i <= controle; i++){
+            System.out.println(i);
+        }
 
         tc.close();
     }
