@@ -36,7 +36,7 @@ public class Main {
                 System.out.print("Valor invalido");
         }*/
 
-        System.out.print("Digite um valor: ");
+        /*System.out.print("Digite um valor: ");
         int controle = tc.nextInt();
         int cont = 0;
 
@@ -48,7 +48,14 @@ public class Main {
         for(int i = 0; i <= controle; i++){
             System.out.println(i);
         }
+        */
 
+        System.out.print("Digite um numero para ver sua TABUADA: ");
+        int tab = tc.nextInt();
+
+        for(int i = 1; i <= 10; i++){
+            System.out.printf("%d x %d = %d %n", tab, i, (tab*i));
+        }
         tc.close();
     }
 }
