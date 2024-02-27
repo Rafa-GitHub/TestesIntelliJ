@@ -36,6 +36,14 @@ public class Main {
                 System.out.print("Valor invalido");
         }*/
 
+        System.out.print("Digite um valor: ");
+        int controle = tc.nextInt();
+        int cont = 0;
+
+        while (cont <= controle){
+            System.out.println(cont);
+            cont++;
+        }
 
 
 
