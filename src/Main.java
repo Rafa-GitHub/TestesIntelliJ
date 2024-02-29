@@ -57,7 +57,17 @@ public class Main {
             System.out.printf("%d x %d = %d %n", tab, i, (tab*i));
         }*/
 
-        System.out.print("Digite um numero para SOMAR: [0 p/ sair]: ");
+        int op = 0;
+        int soma = 0;
+
+        do{
+            System.out.print("Digite um numero para SOMAR [0 p/ sair]: ");
+            op = tc.nextInt();
+            soma += op;
+
+        }while (op != 0);
+
+        System.out.printf("A soma foi %d", soma);
 
 
         tc.close();
