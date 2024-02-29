@@ -50,12 +50,16 @@ public class Main {
         }
         */
 
-        System.out.print("Digite um numero para ver sua TABUADA: ");
+        /*System.out.print("Digite um numero para ver sua TABUADA: ");
         int tab = tc.nextInt();
 
         for(int i = 1; i <= 10; i++){
             System.out.printf("%d x %d = %d %n", tab, i, (tab*i));
-        }
+        }*/
+
+        System.out.print("Digite um numero para SOMAR: [0 p/ sair]: ");
+
+
         tc.close();
     }
 }
