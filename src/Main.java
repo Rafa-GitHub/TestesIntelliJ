@@ -67,7 +67,7 @@ public class Main {
 
         }while (op != 0);
 
-        System.out.printf("A soma foi %d", soma);
+        System.out.printf("A soma foi %d!", soma);
 
 
         tc.close();
